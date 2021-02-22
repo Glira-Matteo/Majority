@@ -10,3 +10,4 @@
     function create(elem){
         return document.write(elem)
     }
+    
