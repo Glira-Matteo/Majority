@@ -1,8 +1,8 @@
 //functions
+      
     function get(elem){
-        document.querySelector("elem");
-    }
-
+    return document.getElementById(elem);
+}
     function print(text){
         return console.log(text)
     }
