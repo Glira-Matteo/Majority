@@ -1,6 +1,6 @@
 //functions
     function get(elem){
-        document.querySelector(elem);
+        document.querySelector("elem");
     }
 
     function print(text){
