@@ -1,10 +1,10 @@
 //functions
       
     function get(elem){
-    return document.getElementById(elem);
+    return document.querySelector(elem);
 }
     function print(text){
-        return console.log(text)
+        return console.log(text);
     }
     
     function create(elem){
