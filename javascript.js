@@ -12,8 +12,8 @@
     function print(text){
       return console.log(text);
     }
-    function create(elem){
-      return document.write(elem)
+    function create(elem, text=" "){
+      return document.createElement(elem, text);
     }
     function random(num){
       return Math.round(Math.Random * num);
