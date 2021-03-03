@@ -18,5 +18,10 @@
     function random(num){
       return Math.round(Math.Random * num);
     }
+    function load(code){
+      addEventListener("DOMContentLoaded", ()=> {
+            code()}
+                       }
+      
     
     
