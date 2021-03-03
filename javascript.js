@@ -15,5 +15,8 @@
     function create(elem){
       return document.write(elem)
     }
+    function random(num){
+      return Math.round(Math.Random * num);
+    }
     
     
